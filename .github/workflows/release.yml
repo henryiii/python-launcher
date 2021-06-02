@@ -1,6 +1,10 @@
 name: Release
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - henryiii-patch-1
 
 jobs:
   details:
